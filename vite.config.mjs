@@ -12,6 +12,7 @@ import { defineConfig } from 'npm:vite';
 import preact from 'npm:@preact/preset-vite';
 
 import "npm:preact";
+import "npm:react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
