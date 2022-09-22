@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "dom.extras",
+      "deno.ns"
+    ],
+    "types": [
+    ],
+    "jsx": "react-jsx"
+  },
+  "importMap": "import_map.json",
+  "tasks": {
+    "start": "deno run -A --unstable --node-modules-dir npm:vite",
+    "build": "deno run -A --unstable --node-modules-dir npm:vite build",
+    "preview": "deno run -A --unstable --node-modules-dir npm:vite preview",
+    "serve": "deno run --allow-net --allow-read main.ts",
+    "opt": "deno run -A server.ts --optimize",
+    "clear_and_run": "deno run -r -A server.ts",
+    "reload:cache": "deno cache --reload src/main.tsx"
+  }
+}

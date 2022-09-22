@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "react": "https://cdn.skypack.dev/react?dts",
+    "preact": "https://cdn.skypack.dev/preact?dts",
+    "preact-dom": "https://cdn.skypack.dev/preact-dom?dts",
+    "react-router-dom": "https://cdn.skypack.dev/react-router-dom?dts"
+  }
+}
